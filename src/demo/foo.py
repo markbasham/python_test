@@ -16,7 +16,7 @@ def sub(a, b):
 def mul(a, b):
     print("hello")
     result = a*b
-    print("After Result caluclated")
+    print("After Result calc")
     return result
 
 
