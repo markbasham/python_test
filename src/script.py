@@ -20,6 +20,9 @@ dnp.plot.line(np.random.rand(100))
 dnp.plot.image(dnp.random.rand(100,100))
 dnp.plot.surface(dnp.random.rand(100,100))
 
+dnp.plot.image(dnp.random.rand(100,100), name="Wibble")
+dnp.plot.image(dnp.random.rand(100,100), name="Plot 2")
+
 # async
 for i in range(1000):
     dnp.plot.image(dnp.random.rand(100,100))
