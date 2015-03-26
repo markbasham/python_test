@@ -14,7 +14,10 @@ def sub(a, b):
 
 
 def mul(a, b):
-    return a*b
+    print("hello")
+    result = a*b
+    print("After Result caluclated")
+    return result
 
 
 def div(a, b):
