@@ -25,8 +25,15 @@ for i in range(1000):
     dnp.plot.image(dnp.random.rand(100,100))
     print(i)
 
-# 
+#  Show variables
 a = np.random.rand(100)
 b = np.random.rand(100)
+
+
+# show debgging
+from demo import foo
+
+foo.mul(a,b)
+
 
 
